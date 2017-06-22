@@ -1,0 +1,7 @@
+IndentWidth: 4
+BreakBeforeBraces: Linux
+SortIncludes: true
+AlignConsecutiveAssignments: true
+AlignConsecutiveDeclarations: true
+BinPackParameters: false
+ConstructorInitializerAllOnOneLineOrOnePerLine: true
