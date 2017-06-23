@@ -84,6 +84,7 @@ int main(int argc, char *argv[])
 {
     if (argc != 2) {
         fprintf(stderr, "Usage:\n\t%s <filename>\n", argv[0]);
+        exit(1);
     }
     const std::string name(argv[1]);
     const auto        base     = trim_ext(basename(name));
